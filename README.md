@@ -18,6 +18,6 @@ O projeto não utiliza pacotes complexos ou dependências externas, mantendo o f
 ```text
 sistema-recomendacao/
 └── src/
-    ├── Livro.java  # Classe de modelo (Nó), contém atributos, equals, hashCode e toString.
+    ├── Livro.java  # Classe de modelo (Nó), contém os atributos
     ├── Grafo.java  # Estrutura de dados que gerencia o HashMap e a criação de arestas.
     └── Main.java   # Classe executável que povoa o grafo com 10 livros e simula recomendações.
