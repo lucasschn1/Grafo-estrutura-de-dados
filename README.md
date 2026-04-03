@@ -9,7 +9,7 @@ O sistema simula o comportamento de plataformas digitais ao recomendar leituras 
 * **Nós (Vértices):** Representam os livros disponíveis no catálogo (instâncias da classe `Livro`).
 * **Arestas (Conexões):** Representam as recomendações diretas de uma obra para outra.
 
-O coração do sistema é construído em Java nativo, utilizando um `HashMap<Livro, Set<Livro>>`. O uso de `Set` (especificamente `HashSet`) acoplado com a sobrescrita dos métodos `equals()` e `hashCode()` garante que não existam livros duplicados nas listas de recomendação e que a busca (complexidade de tempo) seja altamente otimizada.
+O coração do sistema é construído em Java nativo, utilizando a estrutura de Lista de Adjacência através de um HashMap<Livro, Set<Livro>>. O uso de Set garante uma busca rápida e otimizada das recomendações dentro da memória, evitando o uso de laços de repetição complexos ao consultar os vizinhos de cada nó.
 
 ## Estrutura de Arquivos
 
