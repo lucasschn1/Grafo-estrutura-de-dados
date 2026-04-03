@@ -15,11 +15,14 @@ O coração do sistema é construído em Java nativo, utilizando a estrutura de 
 
 O projeto não utiliza pacotes complexos ou dependências externas, mantendo o foco na lógica algorítmica.
 
-<img width="614" height="601" alt="image" src="https://github.com/user-attachments/assets/1e32067e-9675-4a43-8782-4be6a6a8eeea" />
-
 ```text
 sistema-recomendacao/
 └── src/
     ├── Livro.java  # Classe de modelo (Nó), contém os atributos
     ├── Grafo.java  # Estrutura de dados que gerencia o HashMap e a criação de arestas.
     └── Main.java   # Classe executável que povoa o grafo com 10 livros e simula recomendações.
+````
+## Imagem Ilustrativa 
+<img width="610" height="605" alt="image" src="https://github.com/user-attachments/assets/bf4a896c-6785-482e-95b6-249d4fd50f48" />
+
+
